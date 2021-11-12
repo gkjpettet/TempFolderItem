@@ -64,6 +64,48 @@
   <ItemParams></ItemParams>
   <ItemResult>FolderItem</ItemResult>
  </Method>
+ <Method>
+  <ItemName>ShellPath</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <CodeDescription>Returns the shell path of this temporary folder item.</CodeDescription>
+  <PartID>276168703</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShellPath() As String</SourceLine>
+   <SourceLine>/// Returns the shell path of this temporary folder item.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Return mFolderItem.ShellPath</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>String</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>NativePath</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <CodeDescription>Returns the native path of this temporary folder item.</CodeDescription>
+  <PartID>6557695</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function NativePath() As String</SourceLine>
+   <SourceLine>/// Returns the native path of this temporary folder item.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Return mFolderItem.NativePath</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>String</ItemResult>
+ </Method>
  <Property>
   <ItemName>mFolderItem</ItemName>
   <Compatibility></Compatibility>
